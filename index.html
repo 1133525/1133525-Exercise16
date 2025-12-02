@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Transition Squares</title>
+    <style>
+        .container {
+            margin: 50px;
+        }
+        .square {
+            width: 80px;
+            height: 80px;
+            background-color: pink;
+            margin-bottom: 40px;
+            transition: all 0.5s ease;
+            padding: 5px
+            font-size: 22px;
+        }
+
+        #sq1:hover {
+            width: 300px;
+        }
+
+        #sq2:hover {
+            width: 120px;
+            height: 120px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="sq1" class="square">1</div>
+        <div id="sq2" class="square">2</div>
+    </div>
+</body>
+</html>
